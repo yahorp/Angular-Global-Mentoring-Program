@@ -10,6 +10,7 @@ import { AvailableCoursesComponent } from './pages/course/components/available-c
 import { SearchComponent } from './pages/course/components/search/search.component';
 import { AddCourseButtonComponent } from './pages/course/components/add-course-button/add-course-button.component';
 import { MainContentWrapperComponent } from './pages/course/components/main-content-wrapper/main-content-wrapper.component';
+import { CourseComponent } from './pages/course/components/course/course.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MainContentWrapperComponent } from './pages/course/components/main-cont
     AvailableCoursesComponent,
     SearchComponent,
     AddCourseButtonComponent,
-    MainContentWrapperComponent
+    MainContentWrapperComponent,
+    CourseComponent
   ],
   imports: [
     BrowserModule
